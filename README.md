@@ -1,6 +1,6 @@
 This repository is designed to be an introduction to Perturbation Theory and Series Approximation on the Mandelbrot set. The repository requires no libraries to be installed, but it does include CImg as an included library. It will work when you download the program and run it, no install required. 
 
-The variable names are named after the original Perturbation Theory and Series Approximation paper, so you should look at the code with the paper up alongside the code.  Here is a link to the paper: http://superfractalthing.co.nf/sft_maths.pdf. 
+The variable names are named after the original Perturbation Theory and Series Approximation paper, so you should look at the code with the paper up alongside the code.  Here is a link to the paper: http://www.science.eclipse.co.uk/sft_maths.pdf. 
 
 This code uses long doubles to express where arbitrary precision would be used in whatever library you want, but long doubles don’t have any more precision than normal doubles in Visual Studio. They just exist for backwards-compatibility. What this means is that, on its own, this code is no more effective than a non-Perturbation theory renderer. You have to add your own Arbitrary Precision Library for that. However, you can modify the code and learn from it without going through the trouble of installing such a library on a modern computer on Windows (which can be very difficult in C++). 
 
